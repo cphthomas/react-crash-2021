@@ -1,5 +1,4 @@
-
-*import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -108,7 +107,7 @@ const App = () => {
                     onToggle={toggleReminder}
                   />
                 ) : (
-                  'Ingen opgaver registreret'
+                  'Ingen opgaver :O)'
                 )}
               </>
             }
